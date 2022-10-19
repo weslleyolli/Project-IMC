@@ -18,5 +18,3 @@ Project for the peoples calculates your Imc
 ## Contato
 
 weslleyrichardson.cg@hotmail.com
-https://www.linkedin.com/in/weslley-oliveira-5a3443238
-https://github.com/weslleyolli
