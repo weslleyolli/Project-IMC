@@ -6,39 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Model</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
     <section class="container">
         <h1>Table IMC</h1>
-        <p>
-            <div class="containerList">
-                <ul>
-                    <li class="subtitle">IMC</li>
-                    <li>less than 18.5</li>
-                    <li>between 18.5 and 24.9</li>
-                    <li>between 25 and 29.9</li>
-                    <li>between 30 and 34.9</li>
-                    <li>between 35 and 39.9</li>
-                    <li>more than 40</li>
-                </ul>
-                <ul class="ListTwo">
-                    <li class="subtitle">Result</li>
-                    <li>under weight</li>
-                    <li>weight normal</li>
-                    <li>over weight</li>
-                    <li>Obesity 1</li>
-                    <li>Obesity 2</li>
-                    <li>obesity 3</li>
-                </ul>
-            </div>
-        </p>
+        <div class="containerList">
+            <ul>
+                <li class="subtitle">IMC</li>
+                <li>less than 18.5</li>
+                <li>between 18.5 and 24.9</li>
+                <li>between 25 and 29.9</li>
+                <li>between 30 and 34.9</li>
+                <li>between 35 and 39.9</li>
+                <li>more than 40</li>
+            </ul>
+            <ul class="ListTwo">
+                <li class="subtitle">Result</li>
+                <li>under weight</li>
+                <li>weight normal</li>
+                <li>over weight</li>
+                <li>Obesity 1</li>
+                <li>Obesity 2</li>
+                <li>obesity 3</li>
+            </ul>
+        </div>
         <h1>Calculate your IMC</h1>
 
         <form action="" id="forms" method="POST">
-            <label for="weight">weight</label>
+            <label for="weight">Weight</label>
             <input type="text" id="weight">
 
             <label for="height">Height</label>
@@ -50,7 +48,7 @@
         <div id="result"></div>
     </section>
 
-    <script src="./assets/js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
